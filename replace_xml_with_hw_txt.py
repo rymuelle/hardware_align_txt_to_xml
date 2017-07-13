@@ -1,3 +1,5 @@
+#https://stackoverflow.com/questions/2741480/can-elementtree-be-told-to-preserve-the-order-of-attributes
+
 import xml.etree.ElementTree as ET
 
 def _serialize_xml(write, elem, encoding, qnames, namespaces):
